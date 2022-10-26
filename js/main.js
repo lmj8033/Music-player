@@ -49,7 +49,6 @@ prev.addEventListener("click", function (e) {
   }
   list[active].classList.add("on");
 });
-
 next.addEventListener("click", function (e) {
   frame.style.transform = `rotate(${deg * --num}deg)`;
 
